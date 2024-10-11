@@ -1,0 +1,14 @@
+{
+	"admin/services/netdata": {
+		"title": "netdata",
+		"action": {
+			"order": 30,
+			"type": "view",
+			"path": "netdata"
+		},
+		"depends": {
+			"acl": [ "luci-app-netdata" ],
+			"uci": { "netdata": true }
+		}
+	}
+}
