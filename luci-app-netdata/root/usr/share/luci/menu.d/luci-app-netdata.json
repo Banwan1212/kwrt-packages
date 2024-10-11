@@ -1,5 +1,5 @@
 {
-	"admin/services/netdata": {
+	"admin/status/netdata": {
 		"title": "netdata",
 		"action": {
 			"order": 30,
